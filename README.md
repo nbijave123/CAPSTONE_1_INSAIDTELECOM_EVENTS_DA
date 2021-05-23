@@ -15,6 +15,8 @@ In this assignment, you are going to study the demographics of a user (gender an
 The Data is collected from mobile apps that use InsaidTelecom services. Full recognition and consent from individual user of those apps have been obtained,
 and appropriate anonymization have been performed to protect privacy. Due to confidentiality, we won't provide details on how the gender and age data was obtained.
 Please treat them as accurate ground truth for prediction. The data schema can be represented in the following table:
+
+
 gender_age_train - Devices and their respective user gender, age and age_group
 
 phone_brand_device_model - device ids, brand, and models phone_brand: note that few brands are in Chinese.
