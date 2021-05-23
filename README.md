@@ -18,8 +18,12 @@ and appropriate anonymization have been performed to protect privacy. Due to con
 Please treat them as accurate ground truth for prediction. The data schema can be represented in the following table:
 
 
-gender_age_train - Devices and their respective user gender, age and age_group
+gender_age_train - Devices and their respective user gender, age and age_group.
 
 phone_brand_device_model - device ids, brand, and models phone_brand: note that few brands are in Chinese.
 
 events_data - when a user uses mobile on INSAID Telecom network, the event gets logged in this data. Each event has an event id, location (lat/long), and the event corresponds to frequency of mobile usage. timestamp: when the user is using the mobile.
+
+
+Please Note: INSAIDTELECOM.zip file contains gender_age_train_df, phone_brand_device_model_df and CAPSTONE1_DataAnalytics_INSAIDTELECOM_EVENTSDATA (Jupyter Notebook).
+events_data size is more than limit of 25MB set limit. hence it's not uploaded.
